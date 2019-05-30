@@ -1,4 +1,5 @@
-Just ./analyze_this, and answer the questions!
+Just ./analyze_this.py, and answer the questions! If it says this is unsupported,
+chmod +x analyze_this.py
 
 Currently supports Gene Enrichment Analysis via GSEA
 
