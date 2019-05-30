@@ -20,6 +20,23 @@ for example:
    even if my function returns the same answer regardless
 
 
+TODO
+--------
+Kian - provide a ./setup script that automatically asks which kinds of analyses they'd like to be running, and then downloads and installs each of the associated programs that will be required before continuing
+Ariane - figure out which tools we want to run for gsea by manually running it on the dataset hiding in test/data/gene_enrichment_test.csv
+
+For GSEA, it will look something like:
+java -cp build/gsea-3.0.jar -Xmx1024m gsea-tool parameters
+
+gsea-tool and parameters are probably going to be variable - the rest should be verbatim
+
+docs:
+http://software.broadinstitute.org/gsea/msigdb/index.jsp
+http://software.broadinstitute.org/gsea/doc/GSEAUserGuideFrame.html?_syntax
+
+for panther you'll need to figure it out
+docs:
+http://pantherdb.org/downloads/index.jsp
 
 
 
