@@ -1,0 +1,24 @@
+Just ./analyze_this, and answer the questions!
+
+Currently supports Gene Enrichment Analysis via GSEA
+
+
+Analyze a list of genes
+
+1) as inputs, it'll take  list(s) of enriched genes in some format
+	CSV
+2) which analysis program would you like to use?
+3) what data sets would you like to check your results against?
+4) as outputs, it'll take path(s) to write the outputs to
+	and the formats to write them in
+
+ask() ==> implies that there are no side effects - no other impacts to running this computation besides the output of the computation itself
+
+for example:
+   if my function ask() makes a speaker blare music, that's a 'side effect' of the function
+   even if my function returns the same answer regardless
+
+
+
+
+
