@@ -31,15 +31,14 @@ java -cp build/gsea-3.0.jar -Xmx1024m gsea-tool parameters
 gsea-tool and parameters are probably going to be variable - the rest should be verbatim
 
 GSEA COMMANDS:
-java -cp build/gsea-3.0.jar -Xmx1024m gsea-tool parameters
+java -cp build/gsea-3.0.jar -Xmx1024m xtools.gsea.LeadingEdgeTool -dir /Users/arianeblank/analyze_this -gmx /Users/arianeblank/analyze_this/test/gene_sets -out /Users/arianeblank/analyze_this/test/output.gct -res /Users/arianeblank/analyze_this/test/data/dipg6
+
 
 
 docs:
 http://software.broadinstitute.org/gsea/msigdb/index.jsp
 http://software.broadinstitute.org/gsea/doc/GSEAUserGuideFrame.html?_syntax
 
-for panther you'll need to figure it out - google run panther from command line
-PANTHER COMMANDS:
 
 docs:
 http://pantherdb.org/downloads/index.jsp
