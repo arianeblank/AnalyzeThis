@@ -134,8 +134,7 @@ def ask_io(question, answers=None):
       return input()
 
 ## run_analysis helpers
-
-def gsea_analysis(input_metadata, analysis_metadata, result_comparisons, output_file_paths):
+ds(input_metadata, analysis_metadata, result_comparisons, output_file_paths):
   command_string = "java -cp build/gsea-3.0.jar -Xmx512m gsea-tool parameters" ## change this to call the .jar file
   sp.check_output(command_string, shell=True)
 
